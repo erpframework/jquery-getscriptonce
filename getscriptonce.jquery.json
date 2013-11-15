@@ -1,7 +1,7 @@
 {
   "name": "getscriptonce",
   "title": "jQuery getScriptOnce",
-  "description": "A jQuery plugin that prevents a script being loaded more then once via $.getScript()",
+  "description": "A jQuery plugin that prevents a script from being loaded more than once via $.getScript()",
   "version": "0.1.0",
   "homepage": "http://www.invetek.nl/?p=105",
   "docs": "https://github.com/invetek/jquery-getscriptonce",

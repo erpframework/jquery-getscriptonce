@@ -1,7 +1,7 @@
 {
     "name": "getscriptonce",
     "version": "0.1.0",
-    "description": "A jQuery plugin that prevents a script being loaded more then once via $.getScript()",
+    "description": "A jQuery plugin that prevents a script from being loaded more than once via $.getScript()",
     "keywords": [
         "script",
         "once",
