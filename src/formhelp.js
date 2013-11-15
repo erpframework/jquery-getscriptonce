@@ -1,0 +1,4 @@
+(function($) {
+    $.getScriptOnce = function(){};
+
+}(jQuery));

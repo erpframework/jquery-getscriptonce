@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+  jQuery getScriptOnce Plugin Sample
+  https://github.com/invetek/jquery-getscriptonce
+ 
+  Copyright 2013 Loran Kloeze - Invetek
+  Released under the MIT license 
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>jQuery getScriptOnce plugin sample</title>
+        <link rel="stylesheet" href="sample.css">   
+        <script src="../libs/jquery/jquery.js"></script>
+        <script src="../dist/jquery.getscriptonce.js"></script>
+        <script src="sample.js"></script>
+    </head>
+    <body>
+        <div class="contentwrapper">
+            <h1>jQuery getScriptOnce plugin sample</h1>
+            <p> Click on the buttons to see the difference between jQuery's $.getScript() and this plugin.
+            </p>
+            <hr>
+            <h2>The normal way</h2>
+            <p>
+                Clicking this button will cause the server to send a javascript back. It keeps doing that when you
+                keep clicking the button.
+            </p>    
+            <a href="#" class="button" id="btnGetNormal">Request script via normal $.getScript()</a>       
+            <div id="responseNormal" class="response">
+                
+            </div>
+            <hr>
+            <h2>The plugin way</h2>
+            <p>
+                Clicking this button will cause the server to send a javascript back. If you click it again it will <b>not</b> send
+                the script again.
+            </p>    
+            <a href="#" class="button" id="btnGetPlugin">Request script via plugin $.getScriptOnce()</a>       
+            <div id="responsePlugin" class="response">
+
+            </div>
+            <hr>
+            <p>
+                <a href="http://www.invetek.nl">Invetek - Loran Kloeze</a> | <a href="https://github.com/invetek/jquery-getscriptonce">https://github.com/invetek/jquery-getscriptonce</a>
+            </p>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "getscriptonce",
+  "title": "jQuery getScriptOnce",
+  "description": "A jQuery plugin that prevents a script being loaded more then once via $.getScript()",
+  "version": "0.1.0",
+  "homepage": "http://www.invetek.nl/?p=105",
+  "docs": "https://github.com/invetek/jquery-getscriptonce",
+  "author": {
+    "name": "Loran Kloeze | Invetek",
+    "email": "loran@invetek.nl",
+    "url": "http://www.invetek.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/invetek/jquery-getscriptonce.git"
+  },
+  "bugs": "https://github.com/invetek/jquery-getscriptonce/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.5"
+  },
+  "keywords": ["script","once","getscript","load"]
+}
