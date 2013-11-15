@@ -25,10 +25,6 @@ module.exports = function(grunt) {
         src: ['src/<%= pkg.name %>.js'],
         dest: 'dist/jquery.<%= pkg.name %>.js'
       },
-      css: {
-        src: ['src/css/<%= pkg.name %>.css'],
-        dest: 'dist/css/jquery.<%= pkg.name %>.css'
-      }
     },
     uglify: {
       options: {
@@ -76,14 +72,6 @@ module.exports = function(grunt) {
         tasks: ['jshint:test', 'qunit']
       },
     },
-	copy: {
-		images: {
-			expand: true,
-			cwd: 'src/',
-			src: ['img/**/*.png','img/**/*.jpg'],
-			dest: 'dist/',
-		},
-	},
 	json_generator: {
     target: {
         dest: "bower.json",
@@ -114,6 +102,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'qunit', 'clean', 'concat', 'uglify', 'copy', 'json_generator']);
+  grunt.registerTask('default', ['jshint', 'qunit', 'clean', 'concat', 'uglify', 'json_generator']);
 
 };

@@ -1,0 +1,23 @@
+{
+    "name": "getscriptonce",
+    "version": "0.1.0",
+    "description": "A jQuery plugin that prevents a script being loaded more then once via $.getScript()",
+    "keywords": [
+        "script",
+        "once",
+        "getscript",
+        "load"
+    ],
+    "dependencies": {
+        "jquery": ">=1.5"
+    },
+    "authors": "",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "homepage": "http://www.invetek.nl/?p=105",
+    "main": "dist/jquery.getscriptonce.js"
+}

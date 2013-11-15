@@ -22,7 +22,10 @@ jquery.getscriptone.js _after_ the jQuery script:
 $.getScriptOnce('/myscript.js');
 ```
 The plugin is a wrapper around jQuery's $.getScript() but it keeps track of the scripts
-that have been loaded before on the website.
+that have been loaded before on the website. 
+
+It returns a jqXHR object when the script is loaded for the first time. It returns false when
+you try to load a script that is already loaded.
 
 ##Example
 

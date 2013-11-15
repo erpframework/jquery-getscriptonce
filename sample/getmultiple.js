@@ -1,0 +1,1 @@
+window.$('#responseMultiple').append('Script loaded<br>');
